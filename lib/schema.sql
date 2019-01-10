@@ -35,5 +35,5 @@ CREATE TABLE character_books (
   book_id INTEGER,
   character_id INTEGER);
   
-SELECT name, COUNT(motto) FROM characters
+SELECT name, COUNT(motto) FROM characters HAVING COUNT(motto)
   
