@@ -35,5 +35,5 @@ CREATE TABLE character_books (
   book_id INTEGER,
   character_id INTEGER);
   
-SELECT species, COUNT (species) FROM characters 
+SELECT species, COUNT (species) FROM characters GROUP BY species 
   
