@@ -12,7 +12,7 @@ def select_value_and_count_of_most_prolific_species
 end
 
 def select_name_and_series_subgenres_of_authors
-  "SELECT author_id,subgenre_id FROM series GROUP BY author_id"
+  "SELECT "
 end
 
 def select_series_title_with_most_human_characters
