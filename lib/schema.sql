@@ -35,5 +35,5 @@ CREATE TABLE character_books (
   book_id INTEGER,
   character_id INTEGER);
   
-  SELECT title,year FROM series WHERE series.id = 1 ORDER BY year
+  SELECT title,year FROM series WHERE series.id = 1 ORDER BY books.year
   id = 1
