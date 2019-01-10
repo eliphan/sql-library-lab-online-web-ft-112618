@@ -35,5 +35,5 @@ CREATE TABLE character_books (
   book_id INTEGER,
   character_id INTEGER);
   
- SELECT books.title,characters.species FROM books JOIN series WHERE series.id = books.series_id JOIN characters WHERE series.id = characters.series_id
+ 
   
